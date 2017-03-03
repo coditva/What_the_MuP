@@ -24,3 +24,7 @@ The Microprocessors and Interfacing course practice programs
 - [sort_string_offset.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/sort_string_offset.asm)
   - sort string according to a given offset
   - lab1, wednesday
+
+- [reverse_words_string.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/reverse_words_string.asm)
+  - reverse the words in a string seperated by spaces
+  - lab1, thursday
