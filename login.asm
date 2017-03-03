@@ -74,10 +74,10 @@ _rpass:
 ; authenticate user
 _auth:
   mov cl, pmax
-
-_authloop:
   lea di, pass
   lea si, corrp
+
+_authloop:
   cmpsb
   jne _noauth
   loop _authloop
