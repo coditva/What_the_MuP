@@ -20,3 +20,7 @@ The Microprocessors and Interfacing course practice programs
 - [add_and_shift.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/add_and_shift.asm)
   - add a character at given positions and shift the string
   - lab1, tuesday
+
+- [sort_string_offset.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/sort_string_offset.asm)
+  - sort string according to a given offset
+  - lab1, wednesday
