@@ -26,6 +26,9 @@ The Microprocessors and Interfacing course practice programs
   - reverse the words in a string seperated by spaces
   - lab1, thursday
 
+- [bubble_sort.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/bubble_sort.asm)
+  - sort array by bubble sort
+
 - [hello_world.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/hello_world.asm)
   - display 'Hello, world!' on stdout
 
