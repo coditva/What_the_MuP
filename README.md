@@ -35,3 +35,7 @@ The Microprocessors and Interfacing course practice programs
 - [login.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/login.asm)
   - console I/O with assembly
   - login any username but the correct password (already defined)
+
+## License
+[UTkarsh Maheshwari](https://github.com/UtkarshMe)  
+[GPL version 3](https://github.com/UtkarshMe/What_the_MuP/blob/master/LICENSE)
