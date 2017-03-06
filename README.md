@@ -26,6 +26,10 @@ The Microprocessors and Interfacing course practice programs
   - reverse the words in a string seperated by spaces
   - lab1, thursday
 
+- [div_by_3.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/div_by_3.asm)
+  - given a set of numbers, store numbers divisible by 3 at another location
+  - lab2, monday
+
 - [bubble_sort.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/bubble_sort.asm)
   - sort array by bubble sort
 
