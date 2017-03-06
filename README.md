@@ -6,12 +6,9 @@ The Microprocessors and Interfacing course practice programs
 - Use [DOSBOX](http://www.dosbox.com/) to run on Win8+/Linux/MacOS
 - Compile and link with ```ml.exe [PROGNAME].asm```
 - Use ```debugx.com``` to debug
+- Note: You might need to rename programs to shorter names for use in DOSBOX
 
 ## List of programs
-
-- [login.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/login.asm)
-  - console I/O with assembly
-  - login any username but the correct password (already defined)
 
 - [sort_in_range.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/sort_in_range.asm)
   - sort given numbers in 5 ranges
@@ -28,3 +25,10 @@ The Microprocessors and Interfacing course practice programs
 - [reverse_words_string.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/reverse_words_string.asm)
   - reverse the words in a string seperated by spaces
   - lab1, thursday
+
+- [hello_world.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/hello_world.asm)
+  - display 'Hello, world!' on stdout
+
+- [login.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/login.asm)
+  - console I/O with assembly
+  - login any username but the correct password (already defined)
