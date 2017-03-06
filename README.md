@@ -40,6 +40,13 @@ The Microprocessors and Interfacing course practice programs
   - console I/O with assembly
   - login any username but the correct password (already defined)
 
+- [quiz.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/quiz.asm)
+  - console I/O with assembly
+  - Use for procedures for most tasks
+  - A small console quiz written in assembly.
+  - Add infinite questions and play!
+  - Clears screen and displays questions accordingly
+
 ## License
 [UTkarsh Maheshwari](https://github.com/UtkarshMe)  
 [GPL version 3](https://github.com/UtkarshMe/What_the_MuP/blob/master/LICENSE)
