@@ -30,6 +30,10 @@ The Microprocessors and Interfacing course practice programs
   - given a set of numbers, store numbers divisible by 3 at another location
   - lab2, monday
 
+- [change_vovels.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/change_vovels.asm)
+  - change all vovels in a string to '@'
+  - lab2, tuesday
+
 - [bubble_sort.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/bubble_sort.asm)
   - sort array by bubble sort
 
