@@ -8,14 +8,14 @@
 .model small
 .386
 .data
-    
+
     prompt      db  ">> $"
-    welcome     db  "Welcome to the GAME NAME$"
-    help        db  "This game works just by entering numbers$"
+    welcome     db  "Welcome to the UTkarsh Maheshwari's MuP Quiz!!$"
+    help        db  "This game works just by entering numbers. Press 9 to quit anytime$"
     help2       db  "Press any key to start...$"
     losemsg     db  "You have lost... better luck next time!$"
     winmsg      db  "Perfect! On you go to the next level!$"
-    wingamemsg  db  "You have won the whole game!$"
+    wingamemsg  db  "Congratulations!!You have won the whole game!$"
     nextmsg     db  "Press any key to continue...$"
     exit        db  "Press any key to exit...$"
 
@@ -23,62 +23,62 @@
     ; define stage msgs ----------------------------------------------
 
     ; stage1
-    stage1      db  "Stage 1 question$"
-    opt1        db  "1. Wrong Ans"
+    stage1      db  "What is the value of AH register to input a character with echo?$"
+    opt1        db  "1. 08H"
     opt1_g1     db  0ah
-    opt1_1      db  "2. Wrong Ans"
+    opt1_1      db  "2. 02H"
     opt1_g2     db  0ah
-    opt1_2      db  "3. Right Ans"
+    opt1_2      db  "3. 01H"
     opt1_g3     db  0ah
-    opt1_3      db  "4. Wrong Ans$"
+    opt1_3      db  "4. 09H$"
     correct1    db  '3'
 
 
     ; stage2
-    stage2      db  "Stage 2 question$"
-    opt2        db  "1. Right Ans"
+    stage2      db  "What is the interrupt value to get keyboard input/output?	$"
+    opt2        db  "1. 21H"
     opt2_g1     db  0ah
-    opt2_1      db  "2. Wrong Ans"
+    opt2_1      db  "2. 10H"
     opt2_g2     db  0ah
-    opt2_2      db  "3. Wrong Ans"
+    opt2_2      db  "3. 11H"
     opt2_g3     db  0ah
-    opt2_3      db  "4. Wrong Ans$"
+    opt2_3      db  "4. 20H$"
     correct2    db  '1'
 
 
     ; stage3
-    stage3      db  "Stage 3 question$"
-    opt3        db  "1. Wrong Ans"
+    stage3      db  "Where is the remainder stored in a 16bit/8bit division?$"
+    opt3        db  "1. DX"
     opt3_g1     db  0ah
-    opt3_1      db  "2. Wrong Ans"
+    opt3_1      db  "2. DH"
     opt3_g2     db  0ah
-    opt3_2      db  "3. Wrong Ans"
+    opt3_2      db  "3. AX"
     opt3_g3     db  0ah
-    opt3_3      db  "4. Right Ans$"
+    opt3_3      db  "4. AH$"
     correct3    db  '4'
 
 
     ; stage4
-    stage4      db  "Stage 4 question$"
-    opt4        db  "1. Wrong Ans"
+    stage4      db  "Which program among the following compiles as well as links an ALP?$"
+    opt4        db  "1. Masm.exe"
     opt4_g1     db  0ah
-    opt4_1      db  "2. Wrong Ans"
+    opt4_1      db  "2. Link.exe"
     opt4_g2     db  0ah
-    opt4_2      db  "3. Right Ans"
+    opt4_2      db  "3. Ml.exe"
     opt4_g3     db  0ah
-    opt4_3      db  "4. Wrong Ans$"
+    opt4_3      db  "4. Debugx.com$"
     correct4    db  '3'
 
 
     ; stage5
-    stage5      db  "Stage 5 question$"
-    opt5        db  "1. Wrong Ans"
+    stage5      db  "Which command in Debugx should be used to execute INT instructions?$"
+    opt5        db  "1. U"
     opt5_g1     db  0ah
-    opt5_1      db  "2. Right Ans"
+    opt5_1      db  "2. P"
     opt5_g2     db  0ah
-    opt5_2      db  "3. Wrong Ans"
+    opt5_2      db  "3. D"
     opt5_g3     db  0ah
-    opt5_3      db  "4. Wrong Ans$"
+    opt5_3      db  "4. T$"
     correct5    db  '2'
 
 
@@ -87,7 +87,7 @@
 
 .code
 .startup
-    
+
 
 ; first screen -------------------------------------------------------
 _welcome:
@@ -322,11 +322,11 @@ _exit:
 
     ; get a garbage key
     call getinp
-    
+
 .exit
 
 
-; define procedures -------------------------------------------------- 
+; define procedures --------------------------------------------------
 
 ; clear the screen
 clrscr  proc    near
