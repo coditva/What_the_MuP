@@ -34,6 +34,10 @@ The Microprocessors and Interfacing course practice programs
   - change all vovels in a string to '@'
   - lab2, tuesday
 
+- [mul_check_upper.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/mul_check_upper.asm)
+  - multiply 8 bit numbers with a given number and check if upper 8 bits are 0
+  - lab2, wednesday
+
 - [bubble_sort.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/bubble_sort.asm)
   - sort array by bubble sort
 
