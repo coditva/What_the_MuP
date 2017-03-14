@@ -48,6 +48,10 @@ The Microprocessors and Interfacing course practice programs
 - [hello_world.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/hello_world.asm)
   - display 'Hello, world!' on stdout
 
+- [change_vovels_2.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/change_vovels_2.asm)
+  - get a string, change all vovels in a string to '@', display it
+  - lab3, tuesday
+
 - [login.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/login.asm)
   - console I/O with assembly
   - login any username but the correct password (already defined)
