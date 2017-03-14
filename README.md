@@ -38,6 +38,10 @@ The Microprocessors and Interfacing course practice programs
   - multiply 8 bit numbers with a given number and check if upper 8 bits are 0
   - lab2, wednesday
 
+- [alt_xchange.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/alt_xchange.asm)
+  - exchange letters at alternate positions in a string
+  - lab2, thursday
+
 - [bubble_sort.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/bubble_sort.asm)
   - sort array by bubble sort
 
