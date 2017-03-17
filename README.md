@@ -63,6 +63,11 @@ The Microprocessors and Interfacing course practice programs
   - Add infinite questions and play!
   - Clears screen and displays questions accordingly
 
+- [text_editor_v1.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/text_editor_v1.asm)
+  - file I/O with assembly
+  - write to a file with assembly
+  - lacks support for opening and editing existing file
+
 ## License
 [UTkarsh Maheshwari](https://github.com/UtkarshMe)  
 [GPL version 3](https://github.com/UtkarshMe/What_the_MuP/blob/master/LICENSE)
