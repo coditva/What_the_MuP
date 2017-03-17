@@ -46,26 +46,25 @@ The Microprocessors and Interfacing course practice programs
   - sort array by bubble sort
 
 - [hello_world.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/hello_world.asm)
-  - display 'Hello, world!' on stdout
+  - display 'Hello, world!'
 
 - [change_vovels_2.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/change_vovels_2.asm)
   - get a string, change all vovels in a string to '@', display it
   - lab3, tuesday
 
 - [login.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/login.asm)
-  - console I/O with assembly
+  - console I/O
   - login any username but the correct password (already defined)
 
 - [quiz.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/quiz.asm)
-  - console I/O with assembly
-  - Use for procedures for most tasks
-  - A small console quiz written in assembly.
+  - console I/O
+  - Use of procedures for most tasks
+  - A small console quiz
   - Add infinite questions and play!
-  - Clears screen and displays questions accordingly
 
 - [text_editor_v1.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/text_editor_v1.asm)
-  - file I/O with assembly
-  - write to a file with assembly
+  - file I/O
+  - create and write to a file
   - lacks support for opening and editing existing file
 
 ## License
