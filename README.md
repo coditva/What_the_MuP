@@ -67,6 +67,10 @@ The Microprocessors and Interfacing course practice programs
   - create and write to a file
   - lacks support for opening and editing existing file
 
+- [text_editor_v2.asm](https://github.com/UtkarshMe/What_the_MuP/blob/master/text_editor_v2.asm)
+  - file I/O
+  - create, open and write to a file
+
 ## License
 [UTkarsh Maheshwari](https://github.com/UtkarshMe)  
 [GPL version 3](https://github.com/UtkarshMe/What_the_MuP/blob/master/LICENSE)
